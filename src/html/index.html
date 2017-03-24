@@ -1,14 +1,25 @@
 <html>
 <head>
   <title>MyBudget</title>
+  
   <link rel="stylesheet" type="text/css" href="main.css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.23.1/babel.min.js"></script>
-  <script type="text/babel" src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.10/system.js"></script>
 </head>
 <body>
-  <div id="root"></div>
+  <div id="root">Application is loading</div>
+  <script>
+    System.config({
+      transpiler: 'babel',
+      baseURL: '',
+      map: {
+        babel: 'https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js',
+        react: 'https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js',
+        'react-dom': 'https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js'
+      }
+    });
+
+    System.import('main.js');
+  </script>  
 </body>
 </html>
