@@ -1,2 +1,3 @@
 # MyBudget
-Simple application for personal budget management
+
+A simple application for personal finance tracking
