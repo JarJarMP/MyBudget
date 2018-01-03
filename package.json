@@ -2,7 +2,7 @@
   "name": "my-budget",
   "version": "0.0.1",
   "description": "Simple application for personal finance tracking",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
