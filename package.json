@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JarJarMP/MyBudget/issues"
   },
-  "homepage": "https://github.com/JarJarMP/MyBudget#readme"
+  "homepage": "https://github.com/JarJarMP/MyBudget#readme",
+  "devDependencies": {
+    "electron": "^1.7.10"
+  }
 }
