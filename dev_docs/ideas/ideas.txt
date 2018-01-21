@@ -1,0 +1,31 @@
+Links
+    https://electronjs.org/apps/cromberg
+    http://stackabuse.com/nedb-a-lightweight-javascript-database/
+    https://www.mongodb.com/blog/post/nedb-a-lightweight-javascript-database-using
+        https://github.com/louischatriot/nedb
+Requirements
+    Dekstop app
+        optimize for full screen
+        but be responsive and go on 1024*768 as well
+    Dashboard - configurable with views
+    Multilanguage support
+        simple json based for easier community driven development
+    CRUD - Budgets, Expense, Income, Tags
+    Settings
+        Language,
+        Themes, 
+        Currency, 
+        default display - Dashboard, Budget1, Budget2
+        autosave frequency, 
+        autosave target folder
+    DropBox backup - auto backup once per day - configure time to save
+        think through GDrive/Dropbox - auth or target folder
+    Views - all kinds of listing and charts
+        all expenses, all incomes
+        charts
+        history?
+    Export and import
+        whole application - with settings and so on - all budgets
+        just one budget
+    Not just tracking but planning options too
+        eg. repaint the house - paint, brushes, etc
